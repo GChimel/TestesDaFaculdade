@@ -6,12 +6,12 @@ int main () {
 	
 	printf("Digite um valor: \n");
 	scanf("%d", &valor);
-	if(valor <= 0){
+	if(valor < 0){
 		printf("Seu valor e negativo");
-	}
-	else{
+	}else{
 		printf("Seu valor e positivo");
-	}
+	}if (valor == 0)
+	printf("O valor nao e nem positivo e nem negativo");
 }
 
  
